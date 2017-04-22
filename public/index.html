@@ -9,18 +9,23 @@
     <link rel="stylesheet" href="stylesheets/style.css">
   </head>
 
-  <body>
+  <body ng-app="myapp">
+    <h1> Hello MEAN+</h1>
+        Test Angular: 2+3= {{ 2+3 }}<br>
+        Type your name <input ng-model = "name"> Hello {{ name }}
     <table>
       <tr>
         <td style= "width:30%;">
           <img class = "newappIcon" src="images/newapp-icon.png">
         </td>
         <td>
-          <h1 id="message">Hello World!</h1>
+          <h1 id="message">Hello Debojyoti!</h1>
           <p class='description'></p> Thanks for creating a <span class = "blue">NodeJS Starter Application</span>.
         </td>
       </tr>
     </table>
+    <script type="text/javascript" src="/js/lib/angular.min.js"></script>
+    
   </body>
 
 </html>
